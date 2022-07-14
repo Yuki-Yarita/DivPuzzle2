@@ -1,58 +1,59 @@
 @charset "utf-8";
 
-body {
- width: 400px;
- height: 450px;
- font-size: small;
+.wrapper {
+  width: 400px;
 }
 
 .header {
- height: 100px;
- background-color: #ff0000;
+  height: 100px;
+  background: #ff0000;
 }
 
-.clearfix::after {
- content: "";
- display: block;
- clear: both;
+.side {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background: #00ff51;
 }
 
-.main1 {
- width: 150px;
- height: 250px;
- background-color: #00ff51;
- float: left;
+.content {
+  float: left;
 }
 
-.main2 {
- width: 100px;
- height: 150px;
- background-color: #ff9e6b;
- float: right;
+.top-left {
+  float: left;
+  width: 150px;
 }
 
-.main3 {
- width: 150px;
- height: 50px;
- background-color: #cc00db;
- float: right;
+.center-top {
+  height: 50px;
+  background: #cc00db;
 }
 
-.main4 {
- width: 150px;
- height: 100px;
- background-color: #0093b7;
- float: right;
+.center-bottom {
+  height: 100px;
+  background: #0093b7;
 }
 
-.main5 {
- width: 250px;
- height: 100px;
- background-color: #8c2727;
- float: right;
+.top-right {
+  float: left;
+  width: 100px;
+  height: 150px;
+  background: #ff9e6b;
+}
+
+.bottom {
+  height: 100px;
+  background: #8c2727;
 }
 
 .footer {
- height: 100px;
- background-color: #fff700;
+  height: 100px;
+  background: #fff700;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
